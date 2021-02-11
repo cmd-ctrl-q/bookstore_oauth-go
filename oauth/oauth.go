@@ -29,7 +29,7 @@ var (
 )
 
 type accessToken struct {
-	ID       string `json:"is"`
+	ID       string `json:"id"`
 	UserID   int64  `json:"user_id"`
 	ClientID int64  `json:"client_id"`
 }
